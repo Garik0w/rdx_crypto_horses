@@ -15,4 +15,4 @@ Adds Feed and brush items for any horses you last mounted for RedM_Extended
 
 # Made by
 - CryptoGenics
-- Convert to RDX by Valiantcraven27
+- Converted to RDX by Valiantcraven27
