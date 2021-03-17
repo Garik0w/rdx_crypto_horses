@@ -6,7 +6,7 @@ Adds Feed and brush items for any horses you last mounted for RedM_Extended
 2. Extract the zip.
 3. Put cryptos_horses to your resource folder.
 4. import the items SQL file into your database
-5. Add "start cryptos_horses" in your "server.cfg".
+5. Add "start rdx_cryptos_horses" in your "server.cfg".
 6. start your server, enjoy.
 
 # Required resource
