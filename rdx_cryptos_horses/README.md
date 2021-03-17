@@ -1,18 +1,18 @@
 # cryptos_horses
-Native Feed/Brush/Lead prompts for any horses with redemrp_inventory integration
+Adds Feed and brush items for any horses you last mounted for RedM_Extended
 
 # Installation
 1. Clone this repository.
 2. Extract the zip.
 3. Put cryptos_horses to your resource folder.
-4. Add "start cryptos_horses" in your "server.cfg".
-5. Set your inventory version in config
-6. Add items to redemrp_inventory config
-7. Profit
+4. import the items SQL file into your database
+5. Add "start cryptos_horses" in your "server.cfg".
+6. start your server, enjoy.
 
 # Required resource
-- redem_roleplay
-- redemrp_inventory
+- redm_extended
+- pNotify
 
 # Made by
 - CryptoGenics
+- Convert to RDX by Valiantcraven27
