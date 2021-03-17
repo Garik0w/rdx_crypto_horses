@@ -97,29 +97,6 @@ AddEventHandler('cryptos_horses:Feed2', function(horse, increase)
     end
 end)
 
-
-CreateThread(function()
-	while true do
-     Citizen.Wait(1000)  
-   
-    local playerCoords  = GetEntityCoords(PlayerPedId())
-    local horseCoords  = GetEntityCoords(GetLastMount(PlayerPedId()))
-
-if follow then
-   TaskGoToCoordAnyMeans(GetLastMount(PlayerPedId()), playerCoords, 2.0, 0, nil, 2, 0)
-    --TaskGoToEntity(SpawnplayerHorse, PlayerPedId(), -1, 100, 2.0, 0, 0)
-  end 
- end 
-end)
-
-RegisterCommand("follow",function()
- if follow then
-   follow = true
-  else
-   follow = false
- end
-end)
-
 function GetLastMount(ped)
 	return Citizen.InvokeNative(0x4C8B59171957BCF7, ped)
 end
