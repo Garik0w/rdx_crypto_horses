@@ -9,6 +9,7 @@
 INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES
 	
 	('item_horse_brush', 'Horse Brush', 1, 0, 1),	
+	('item_apple', 'Apple', 1, 0, 1),
 	('item_wildcarrot', 'Wild Carrot', 1, 0, 1);
 /*!40000 ALTER TABLE `items` ENABLE KEYS */;
 
